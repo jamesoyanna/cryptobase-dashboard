@@ -81,8 +81,16 @@ app.post("/user/sell", [authJwt.verifyToken, user_controller.verifyCoins], user_
 app.post("/user/value", [authJwt.verifyToken], user_controller.getUserValue);
 
 
+// server config
+app.use(
+    express.static(path.join(__dirname, "/frontend/build"))
+  );
   
-
+  app.get("*", (req, res) => {
+    res.sendFile(
+      path.join(__dirname, "/frontend/build", "index.html")
+    );
+  });
 
 
 
