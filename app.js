@@ -83,12 +83,12 @@ app.post("/user/value", [authJwt.verifyToken], user_controller.getUserValue);
 
 // server config
 app.use(
-    express.static(path.join(__dirname, "frontend/build"))
+    express.static(path.join(__dirname, "/frontend/build"))
   );
   
   app.get("*", (req, res) => {
     res.sendFile(
-      path.join(__dirname, "frontend/build", "index.html")
+      path.join(__dirname, "/frontend/build", "index.html")
     );
   });
 
