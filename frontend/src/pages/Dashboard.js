@@ -76,10 +76,10 @@ export default class Dashboard extends React.Component {
 		['bitcoin', 'ethereum', 'tether', 'xrp', 'bitcoinCash', 'bitcoinSV', 'litecoin', 'binancecoin', 'eos', 'tezos'].forEach(coin => {
 			ExchangeService.getCurrentPrice(coin).then((response) => {
 				response = parseFloat(response).toFixed(2);
-				console.log(response);
+				// console.log(response);
 				pricesMap.set(coin, response)
 				n++;
-				console.log(n);
+				// console.log(n);
 				if (n === 10) {
 					this.setState({ prices: pricesMap })
 					this.getBalance();
@@ -110,7 +110,7 @@ export default class Dashboard extends React.Component {
 						{ title: 'Tezos', key: 'XTZ', value: response.tezos * this.state.prices.get('tezos'), color: '#2c7df7' },
 					]
 				});
-				console.log(this.state.portfolio)
+				// console.log(this.state.portfolio)
 			}, error => {
 				const resMessage = (error.response && error.response.data && error.response.data.message) || error.message || error.toString();
 				this.setState({
@@ -181,13 +181,13 @@ export default class Dashboard extends React.Component {
 								radius={42}
 								labelPosition={112}
 								onMouseOver={(_, index) => {
-									console.log(index)
+									// console.log(index)
 									// eslint-disable-next-line
 									this.state.visibility[index] = 'visible'
 									this.forceUpdate()
 								}}
 								onMouseOut={(_, index) => {
-									console.log(index)
+									// console.log(index)
 									// eslint-disable-next-line
 									this.state.visibility[index] = 'hidden'
 									this.forceUpdate()

@@ -393,7 +393,7 @@ export default class Coin extends React.Component {
 
                 <Modal size="sm" centered show={this.state.buySuccess} onHide={() => this.setState({ buySuccess: false, loading: false })}>
                     <Modal.Header className='bg-success' closeButton>
-                        <Modal.Title>
+                        <Modal.Title className='text-light'>
                             Successful purchase!
                         </Modal.Title>
                     </Modal.Header>
@@ -408,7 +408,7 @@ export default class Coin extends React.Component {
 
                 <Modal size="sm" centered show={this.state.sellSuccess} onHide={() => this.setState({ sellSuccess: false, loading: false })}>
                     <Modal.Header className='bg-success' closeButton>
-                        <Modal.Title>
+                        <Modal.Title className='text-light'>
                             Successful sale!
                         </Modal.Title>
                     </Modal.Header>

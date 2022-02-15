@@ -106,11 +106,11 @@ exports.login = (req, res) => {
                     email: req.body.email,
                     time: Date(),
                     action: "Login",
-                    status: "Invalid password"
+                    status: "Invalid username or password"
                 });
                 return res.status(401).send({
                     accessToken: null,
-                    message: "Invalid Password!"
+                    message: "Invalid username or Password!"
                 });
             }
 
