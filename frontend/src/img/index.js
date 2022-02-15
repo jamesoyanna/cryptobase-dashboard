@@ -1,6 +1,6 @@
 import Wave from './wave.svg';
 import Portfolio from './portfolio.svg';
-import Logo from './logo.svg';
+import Logo from './cryptybase-logo.png';
 import Avatar from './avatar.svg';
 import PageNotFound from './pageNotFound.svg';
 import BTC_logo from './btc_logo.svg';

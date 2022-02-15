@@ -1,8 +1,8 @@
 // imports
 import React, { Component } from 'react';
-import { Container, Row, Col, Image, Button, Navbar, Form, Nav, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Button, Navbar, Form, Nav, Alert } from 'react-bootstrap';
 import { AuthService } from '../services'
-import { Wave, Portfolio, Logo, Avatar } from '../img'
+import {Logo} from '../img'
 
 // component Login
 export default class Login extends Component {
@@ -106,20 +106,14 @@ export default class Login extends Component {
         return (
             <Container fluid>
 
-                <Image src={Wave} className='position-fixed h-100'></Image>
-
                 <Navbar className='z-100'>
                     <Navbar.Brand href='./'><img src={Logo} alt='Cryptobase' /></Navbar.Brand>
                 </Navbar>
 
                 <Row className='main-content'>
                     <Col className='d-flex'>
-                        <Image src={Portfolio} className='mx-auto my-auto h-60' fluid></Image>
-                    </Col>
-                    <Col className='d-flex'>
-                        <div className='mx-auto my-auto w-75 d-inline jumbotron'>
-                            <div className='d-flex justify-content-center mb-3'><Image src={Avatar} className='w-25'></Image></div>
-                            <h1 className='text-center text-dark'>Welcome</h1>
+                        <div className='mx-auto my-auto d-inline jumbotron'>
+                            <h5 className='text-center text-dark'>Sign in to Cryptobase</h5>
                             <Form className='text-center' onSubmit={this.handleLogin}>
 
                                 <Form.Group className="mb-3">

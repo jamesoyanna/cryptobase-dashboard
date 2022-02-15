@@ -158,7 +158,6 @@ export default class Dashboard extends React.Component {
 					<Navbar.Brand href='./'><img src={Logo} alt='PaperCoin' /></Navbar.Brand>
 					<Nav className="mr-auto w-100">
 						<Button href='./dashboard' className='w-15 ml-4'>Dashboard</Button>
-						<Button href='./about' className='w-15 ml-4'>About</Button>
 					</Nav>
 					<Navbar.Text className='w-20 text-light mr-2'>Your Balance:</Navbar.Text>
 					<Navbar.Text className='text-light mr-4 ml-n4'>${currentUSD}</Navbar.Text>
