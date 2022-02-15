@@ -157,17 +157,17 @@ export default class Dashboard extends React.Component {
 				<Navbar className='z-100' id='navbar'>
 					<Navbar.Brand href='./'><img src={Logo} alt='PaperCoin' /></Navbar.Brand>
 					<Nav className="mr-auto w-100">
-						<Button href='./dashboard' className='w-15 ml-4'>Dashboard</Button>
+						<Button href='./dashboard' className='w-20 ml-4'>Dashboard</Button>
 					</Nav>
-					<Navbar.Text className='w-20 text-light mr-2'>Your Balance:</Navbar.Text>
-					<Navbar.Text className='text-light mr-4 ml-n4'>${currentUSD}</Navbar.Text>
+					<Navbar.Text className='w-20 text-dark mr-2'>Your Balance:</Navbar.Text>
+					<Navbar.Text className='text-dark mr-6 ml-n9'>${currentUSD}</Navbar.Text>
 					<Button className='w-15' onClick={this.handleLogout}>Logout</Button>
 				</Navbar>
 
 				<Row style={{ height: 'calc(100vh - 76px)', marginBottom: '0px', margin: '0', padding: '0' }}>
 					<Col md='8' className='h-100 m-0 p-0 pb-2 pl-2'>
 						<div className='rounded w-100 h-100 bg-dark' style={{ border: '2px solid grey' }}>
-							<h3 className='text-center mt-3 mb-2 pb-0'>Total Value: ${userValue}</h3>
+							<h3 className=' text-light text-center mt-3 mb-2 pb-0'>Total Value: ${userValue}</h3>
 							<PieChart
 								className='h-90 mt-0 pt-0'
 								style={{ fontSize: '5px' }}
@@ -199,7 +199,7 @@ export default class Dashboard extends React.Component {
 						<div className='rounded w-100 h-100' style={{ border: '2px solid grey' }}>
 							<Card className='h-100 bg-dark'>
 								<Card.Body className='h-12'>
-									<Card.Title className='text-center'><h3>Available Coins</h3></Card.Title>
+									<Card.Title className='text-center text-light'><h3>Available Coins</h3></Card.Title>
 								</Card.Body>
 								<ListGroup variant='flush' className='h-88'>
 									<ListGroup.Item action href='/btc' className='h-9 text-light bg-dark'>
@@ -262,7 +262,6 @@ export default class Dashboard extends React.Component {
 										<div className='h5 w-10 d-inline'> Tezos <span className='text-secondary'>XTZ</span></div>
 										<div className='h5 d-inline float-right'>${prices.get('tezos')}</div>
 									</ListGroup.Item>
-									<ListGroup.Item className='h-10 d-flex justify-content-center align-items-center bg-dark'>more coins coming soon...</ListGroup.Item>
 								</ListGroup>
 							</Card>
 						</div>

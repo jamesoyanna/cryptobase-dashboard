@@ -301,15 +301,14 @@ export default class Coin extends React.Component {
                 <Navbar className='z-100' id='navbar'>
                     <Navbar.Brand href='./'><img src={Logo} alt='Cryptobase' /></Navbar.Brand>
                     <Nav className="mr-auto w-100">
-                        <Button href='./dashboard' className='w-15 ml-4'>Dashboard</Button>
-                        <Button href='./about' className='w-15 ml-4'>About</Button>
+                        <Button href='./dashboard' className='w-20 ml-4'>Dashboard</Button>
                     </Nav>
-                    <Navbar.Text className='w-20 text-light mr-2'>Your Balance:</Navbar.Text>
-                    <Navbar.Text className='text-light mr-4 ml-n4'>${currentUSD}</Navbar.Text>
+                    <Navbar.Text className='w-20 text-dark mr-2'> Your Balance:</Navbar.Text>
+                    <Navbar.Text className='text-dark mr-4 ml-n4'> ${currentUSD}</Navbar.Text>
                     <Button className='w-15' onClick={this.handleLogout}>Logout</Button>
                 </Navbar>
 
-                <Row style={{ height: 'calc(100vh - 76px)', marginBottom: '0px', margin: '0', padding: '0' }}>
+                <Row style={{ height: 'calc(100vh - 76px)', marginBottom: '0px', margin: '0', padding: '0', color:'#fff' }}>
 
                     <Col md='8' className='h-100 m-0 p-0 pb-2 pl-2 bg-dark'>
                         <div className='rounded w-100 h-100' style={{ border: '2px solid grey' }}>
@@ -340,7 +339,7 @@ export default class Coin extends React.Component {
                         </div>
                         <div className='h-14_5 pt-2'>
                             <div className='rounded text-center' style={{ backgroundColor: '#131821', height: '100%', border: '2px solid grey' }}>
-                                <h5 className='w-100 mt-2'>{symbol.toUpperCase() + " in your Portfolio"}</h5>
+                                <h5 className='w-100 mt-2 text-light'>{symbol.toUpperCase() + " in your Portfolio"}</h5>
                                 <Table striped bordered hover variant="dark" className="w-100">
                                     <thead></thead>
                                     <tbody>
@@ -351,7 +350,7 @@ export default class Coin extends React.Component {
                         </div>
                         <div className='h-28 pt-2'>
                             <div className='rounded text-center' style={{ backgroundColor: '#131821', height: '100%', border: '2px solid grey' }}>
-                                <h5 className='w-100 mt-2'>Performance</h5>
+                                <h5 className='w-100 mt-2 text-light'>Performance</h5>
                                 <Table striped bordered hover variant="dark" className="w-100">
                                 <thead></thead>
                                 <tbody>
@@ -366,12 +365,12 @@ export default class Coin extends React.Component {
                             <div className='rounded' style={{ backgroundColor: '#131821', height: '100%', border: '2px solid grey' }}>
                                 <Form className='w-100 h-100'>
                                     <div className='h-30 text-center pt-1'>
-                                        <h5>Current Price</h5>
-                                        <h4><b>${price}</b></h4>
+                                        <h5 className='text-light'>Current Price</h5>
+                                        <h4 className='text-light'><b>${price}</b></h4>
                                     </div>
                                     <div className='h-15 d-flex justify-content-center'>
-                                        <Form.Label className='text-center w-45 d-inline mr-3'>{"Amount " + symbol.toUpperCase()}</Form.Label>
-                                        <Form.Label className='text-center w-45 d-inline'>Price USD</Form.Label>
+                                        <Form.Label className='text-center w-45 d-inline mr-3 text-light'>{"Amount " + symbol.toUpperCase()}</Form.Label>
+                                        <Form.Label className='text-center w-45 d-inline text-light'>Price USD</Form.Label>
                                     </div>
                                     <div className='h-25 d-flex justify-content-center'>
                                         <Form.Control id='inputCoin' className='w-45 d-inline mr-3' onChange={this.onChangeCoin} placeholder='0.00000' type='number'></Form.Control>

@@ -3,10 +3,10 @@
 body {
   margin: 0;
   font-family: Sans-serif;
-  color: white;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #061125;
+  background-color: #fff;
 }
 
 .container-fluid {
