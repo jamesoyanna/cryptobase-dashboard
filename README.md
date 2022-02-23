@@ -5,7 +5,8 @@ Cryptobase is a crypto trading platform used for buying and selling of crypto as
 
 ## Application Features
 -Dashboard for display of Total and availbale crypto coins.
-- Signup and Login authentication system
+-Signup and Login authentication system.
+
 -Page for the display and description of crypto currencies such as Bitcoin, Ethereum, LiteCoin, Binance Coin etc.
 - A piechart showing the various amount of the crypto currency assets you have in pictorial view.
 - Tradingview widget, a powerful chart for the display of realtime crypto currency trading activity.
@@ -16,15 +17,25 @@ Cryptobase is a crypto trading platform used for buying and selling of crypto as
 ## Application Functionalities
 - Buy default the application credits your wallet with up 1000 dollars to trade with.
 
-To purchase a crypto currency asset, select of the crypto currencies dispaly on your dashboard you would want to purchase. 
+To purchase a crypto currency asset, select any of the available crypto currencies displayed on your dashboard.
+
 -View the value of the current price of the crypto coin in dollars. 
+
 -Input the value of the crypto you want to buy in dollars in the input form. 
-The system will authomatically calculate the value of crypto asset then click on buy
--If your transaction is successful, this will display a modal with a message "Successful purchase" and the value of the crypto coin you purchase.
 
-To Sell a crypto coin, select the particular crypto coin you want to sell, check also the amount of the particular crypto coin you have. Click input the amount you want to selll in the input box and click on the sell button. This would recalculate the amount of the value of the crypto asset you have.
+The system will authomatically calculate the value of crypto asset then click on the buy button
 
-The total value of your crypto assets is always displayed on your dashboard.
+-If your transaction is successful, this will display a modal with a message "Successful purchase" and the value of the crypto coin you purchased.
+
+To Sell a crypto coin, select the particular crypto coin you want to sell.
+
+ Check also the amount of the particular crypto coin you have.
+ 
+  Input the amount you want to selll in the input box and click on the sell button.
+  
+  -If your transaction is successful, this will display a modal with a message "Successful Sale" and the value of the crypto coin you sold.
+
+   The total value of your crypto asset will be recalculated and displayed on your dashboard.
 
 
 ### Login Credentials: 
