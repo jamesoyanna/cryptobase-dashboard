@@ -58,6 +58,8 @@ Dashboard Display:
 Crypto Currency Trading View:
 ![Trading-View](https://user-images.githubusercontent.com/26815113/155331485-af773bbd-8431-4154-9018-0fadd094ca56.PNG)
 
+Purchase of Bitcoin:
+![Purchase-bitcoin](https://user-images.githubusercontent.com/26815113/155334570-c47759ed-e99d-4965-935b-7eab89261f09.PNG)
 
 
 
@@ -79,12 +81,13 @@ Crypto Currency Trading View:
 ##### Client Side
 
 The project is built with;
-* [React JS](https://beta.reactjs.org/) -Library for building user interfaces
+* [React JS](https://beta.reactjs.org/) -Library for building user interfaces.
+* [React Bootstrap](https://react-bootstrap.github.io) - A component-based library that provides native Bootstrap components as pure React components
 * [Axios](https://axios-http.com) - Promise based HTTP client for the browser and node.js
 * [Redux](https://redux.js.org/) - A Predictable State Container for JavaScript Applications.
 * [Redux-Thunk](https://www.npmjs.com/package/redux-thunk) - A middleware that lets you call action creators that return a function instead of an action object.
 * [React-router](https://reactrouter.com) - Enables the to implementation of dynamic routing in a web app.
-* [Ant Design](https://ant.design) - A UI library that can be used with data flow solutions and application frameworks in any React ecosystem.
+* [React Tradeview Widget](https://www.npmjs.com/package/react-tradingview-widget) -React component for rendering the TradingView Advanced Real-Time Chart Widget.
 
 
 ##### Server Side
@@ -111,7 +114,7 @@ The following tools are required to run this application:
 
 ### Getting the source code
 You can clone the repository directly using this command:
-git clone https://github.com/jamesoyanna/salesflare.git
+git clone https://github.com/jamesoyanna/cryptobase-dashboard.git
 OR clicking on the code button ontop to clone the application.
 
 ### Installation
@@ -123,17 +126,17 @@ Your computer must have installed nodejs, and yarn to run this application You c
 ![nodejs](https://user-images.githubusercontent.com/26815113/132867561-bf2ec1a2-cd63-461f-95dd-e95c1c6676c7.PNG)
 
 ## Install Npm Packages
-After clonning the application, to run the client application locally, you will have to install all the dependencies and packages. 
-Open your terminal and navigate into the client folder using the command:
-cd client
+After clonning the application, to run the frontend application locally, you will have to install all the dependencies and packages. 
+Open your terminal and navigate into the frontend folder using the command:
+cd frontend
 
- Run yarn or npm install from the root of the client folder.
+ Run yarn or npm install from the root of the frontend folder.
 
 
-#### Running the client App
+#### Running the frontend App
 
   ``` 
-Run yarn start or npm start from the root of the client folder to start the development server. 
+Run yarn start or npm start from the root of the frontend folder to start the development server. 
 Go to http://localhost:3000 on your browser. Your app should be running.
 The app will automatically reload if you make changes to any of the source files.
   ```
@@ -142,13 +145,14 @@ The app will automatically reload if you make changes to any of the source files
 Open the project folder you cloned. 
 Create a .env file in the root folder
 Fill in the following credentials:
-PORT = 
-DATABASE =
-JWT_SECRET =
+PORT=
+MONGODB_URL=
+SECRET=
+EXPIRES_IN=
 
 Run npm install from your terminal.
 Then run npm start. 
-Your server should start running on port 8888.
+Your server should start running on port 5000.
 
 ## Author
 
