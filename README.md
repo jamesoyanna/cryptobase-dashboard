@@ -7,47 +7,52 @@ Cryptobase is a crypto trading platform used for buying and selling of crypto as
 -Dashboard for display of Total and availbale crypto coins.
 - Signup and Login authentication system
 -Page for the display and description of crypto currencies such as Bitcoin, Ethereum, LiteCoin, Binance Coin etc.
+- A piechart showing the various amount of the crypto currency assets you have in pictorial view.
 - Tradingview widget, a powerful chart for the display of realtime crypto currency trading activity.
 - Buy Button for the purchase of crypto currency.
 - Sell Button for the sale of crypto currency
-- Portfolio section for the display of the amount of crypto currency you have in your wallet.
+- Portfolio section for the display of the amount of crypto currency asset you have in your wallet.
 
 ## Application Functionalities
-- You can add a new customer by clicking on the custmer icon. An invoice is create for any customer or client to track their payment. Using the payment invoice, you can record a payment made by a particular client.
+- Buy default the application credits your wallet with up 1000 dollars to trade with.
 
-Using the employee feature, you can manage your employees by adding all your employees.
+To purchase a crypto currency asset, select of the crypto currencies dispaly on your dashboard you would want to purchase. 
+-View the value of the current price of the crypto coin in dollars. 
+-Input the value of the crypto you want to buy in dollars in the input form. 
+The system will authomatically calculate the value of crypto asset then click on buy
+-If your transaction is successful, this will display a modal with a message "Successful purchase" and the value of the crypto coin you purchase.
 
-- On the setting button, you can add a payment mode and also assign role to a user.
+To Sell a crypto coin, select the particular crypto coin you want to sell, check also the amount of the particular crypto coin you have. Click input the amount you want to selll in the input box and click on the sell button. This would recalculate the amount of the value of the crypto asset you have.
+
+The total value of your crypto assets is always displayed on your dashboard.
 
 
 
-
-#### Live view of the application Demo can be found here- [Salesflare application](https://salesfla)
+#### Live view of the application Demo can be found here- [Cryptobase application](https://crypto-base.netlify.app/)
 
 ### Pictorial View of the Application
 
 Home page
 
-![landing-page](https://user-images.githubusercontent.com/26815113/155301682-8ee0897e-5658-4108-8727-539f61e83a30.PNG)
+![landing-page](https://user-images.githubusercontent.com/26815113/155330512-28823c82-f7f2-4d18-b00f-63f47ad1ce53.PNG)
 
 
 
 
 Login Section:
 
-[login](https://user-images.githubusercontent.com/26815113/155302086-f9d83015-fb6d-49c3-86a3-81aec3cd04fd.PNG)
-
+![login](https://user-images.githubusercontent.com/26815113/155330818-a585356e-a7fa-4b17-957e-0623f9267be3.PNG)
 
 
 
 Dashboard Display: 
-![dashboard](https://user-images.githubusercontent.com/26815113/155302739-c28cebb5-9043-4748-82da-96f3a5272267.PNG)
+![dashboard](https://user-images.githubusercontent.com/26815113/155331083-ac408180-6e67-4f9b-afd3-282a16478afe.PNG)
 
 
 
+Crypto Currency Trading View:
+![Trading-View](https://user-images.githubusercontent.com/26815113/155331485-af773bbd-8431-4154-9018-0fadd094ca56.PNG)
 
-Adding a Customer:
-![Add customer section](https://user-images.githubusercontent.com/26815113/155303168-5511fe46-485f-46ef-88da-073c8ae184d0.PNG)
 
 
 Adding a Employee:
