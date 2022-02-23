@@ -27,8 +27,13 @@ To Sell a crypto coin, select the particular crypto coin you want to sell, check
 The total value of your crypto assets is always displayed on your dashboard.
 
 
+### Login Credentials: 
+##### Username: admin 
+##### Password: admin123
 
 #### Live view of the application Demo can be found here- [Cryptobase application](https://crypto-base.netlify.app/)
+
+
 
 ### Pictorial View of the Application
 
