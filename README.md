@@ -55,12 +55,6 @@ Crypto Currency Trading View:
 
 
 
-Adding a Employee:
-![employee](https://user-images.githubusercontent.com/26815113/155303536-b7d85f1d-742b-4956-a96b-76b6beeeeb53.PNG)
-
-Adding New Payment Invoice:
-![Add-New-Payment](https://user-images.githubusercontent.com/26815113/155303877-2a1deb79-f062-4fcb-8f9c-a7ac5e6f8007.PNG)
-
 
 ## How to use the application
 
